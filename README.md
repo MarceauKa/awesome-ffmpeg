@@ -122,6 +122,9 @@ ffmpeg -i $INPUT -vn -ar 44100 -ac 2 -ab $BITRATE -f mp3 $OUTPUT.mp3
 - [mp3](https://trac.ffmpeg.org/wiki/Encode/MP3)
 - [aac](https://trac.ffmpeg.org/wiki/Encode/AAC)
 
+**Miscellaneous**
+- [filters](https://trac.ffmpeg.org/wiki/FilteringGuide)
+
 ## Blog posts
 
 [⬆️ Go to top](#summary)
