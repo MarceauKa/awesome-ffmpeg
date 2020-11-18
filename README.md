@@ -79,6 +79,12 @@ Where `$ITERATION` is the desired video loops.
 
 `ffmpeg -stream_loop $ITERATION -i $INPUT -c copy $OUTPUT`
 
+### Rip a DVD to a MP4
+
+Where `$PATH` is your DVD path containing `.VOB` files. `$QUALITY` is the desired video quality (0 is lossless, 51 is highly compressed, 23-28 is nice).
+
+`cat $PATH/VTS_0_*.VOB | ffmpeg -i - -c:v libx264 -crf $QUALITY $OUTPUT.mp4`
+
 ## Audio commands
 
 [⬆️ Go to top](#summary)
