@@ -124,6 +124,7 @@ ffmpeg -i $INPUT -vn -ar 44100 -ac 2 -ab $BITRATE -f mp3 $OUTPUT.mp3
 
 **Miscellaneous**
 - [filters](https://trac.ffmpeg.org/wiki/FilteringGuide)
+- [streaming](https://trac.ffmpeg.org/wiki/StreamingGuide)
 
 ## Blog posts
 
