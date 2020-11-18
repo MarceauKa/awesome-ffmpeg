@@ -1,6 +1,6 @@
 # Awesome FFMPEG
 
-Useful commands for FFMPEG used to convert video and audio files.
+Useful commands for FFMPEG used to convert video and audio files. Feel free to contribute with a PR!
 
 ## Summary
 
